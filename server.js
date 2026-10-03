@@ -10,7 +10,7 @@ const products = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("Node Products API is running!");
+  res.send("Product API is running successfully through Jenkins CI/CD");
 });
 
 app.get("/products", (req, res) => {
